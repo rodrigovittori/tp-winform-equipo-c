@@ -46,7 +46,7 @@
             this.deleteButton = new System.Windows.Forms.Button();
             this.filterTextBox = new System.Windows.Forms.TextBox();
             this.chkDeleteUnusued = new System.Windows.Forms.CheckBox();
-            this.chkShowInvalids = new System.Windows.Forms.CheckBox();
+            this.chkHideInvalids = new System.Windows.Forms.CheckBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.articlesDataGridView = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
@@ -239,16 +239,16 @@
             this.chkDeleteUnusued.Text = "Eliminar registros inactivos";
             this.chkDeleteUnusued.UseVisualStyleBackColor = true;
             // 
-            // chkShowInvalids
+            // chkHideInvalids
             // 
-            this.chkShowInvalids.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkShowInvalids.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.chkShowInvalids.Location = new System.Drawing.Point(500, 180);
-            this.chkShowInvalids.Name = "chkShowInvalids";
-            this.chkShowInvalids.Size = new System.Drawing.Size(260, 32);
-            this.chkShowInvalids.TabIndex = 15;
-            this.chkShowInvalids.Text = "Ocultar registros no válidos";
-            this.chkShowInvalids.UseVisualStyleBackColor = true;
+            this.chkHideInvalids.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkHideInvalids.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.chkHideInvalids.Location = new System.Drawing.Point(500, 180);
+            this.chkHideInvalids.Name = "chkHideInvalids";
+            this.chkHideInvalids.Size = new System.Drawing.Size(260, 32);
+            this.chkHideInvalids.TabIndex = 15;
+            this.chkHideInvalids.Text = "Ocultar registros no válidos";
+            this.chkHideInvalids.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
@@ -272,7 +272,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(884, 561);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.chkShowInvalids);
+            this.Controls.Add(this.chkHideInvalids);
             this.Controls.Add(this.chkDeleteUnusued);
             this.Controls.Add(this.filterTextBox);
             this.Controls.Add(this.clearButton);
@@ -322,7 +322,7 @@
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.TextBox filterTextBox;
         private System.Windows.Forms.CheckBox chkDeleteUnusued;
-        private System.Windows.Forms.CheckBox chkShowInvalids;
+        private System.Windows.Forms.CheckBox chkHideInvalids;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DataGridView articlesDataGridView;
     }
