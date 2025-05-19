@@ -4,7 +4,7 @@
 ![Captura de Pantalla Principal (Placeholder)]
 
 [![Lenguaje](https://img.shields.io/badge/Lenguaje-C%23-blue)](https://docs.microsoft.com/en-us/dotnet/csharp/)
-![Plataforma](https://img.shields.io/badge/Plataforma-WinForms-.NET-lightgrey)
+![Plataforma](https://img.shields.io/badge/platform-.NET%20WinForms-brightgreen)
 ![Base de Datos](https://img.shields.io/badge/Base%20de%20Datos-SQL%20Server-red)
 
 ## Descripción del Proyecto
